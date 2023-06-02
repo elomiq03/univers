@@ -1,0 +1,150 @@
+
+/*---------------------------------------------------------*/
+
+/*INICIO FERRAMENTAS*/
+
+
+/*dei apelidos para cada item para progamar o grid*/
+#item_1{ grid-area: card1;}
+#item_2{ grid-area: card2;}
+#item_3{ grid-area: card3;}
+#item_4{ grid-area: card4;}
+#item_5{ grid-area: card5;}
+#item_6{ grid-area: card6;}
+
+/* SECTION FERRAMENTAS */
+#ferramentas{
+    display: grid; /*organiza os grid em formato grid*/
+    grid-template-areas: /*coloquei o grid template area e os separei*/
+    "card1 card2 card3"
+    "card4 card5 card6";
+    gap: 25px;  /*usei o gap para separar os itens*/
+    text-align: center; /* alinha o texto dentro de cada item no centro*/
+    margin: 60px; /*distancia das margem laterais (direita e esquerda*/
+    margin-bottom: 300px; /*margem da section com relação a section de baixo*/
+}
+
+/* TEXTO DENTRO DOS ITENS*/
+#ferramentas p{
+    display: block; /*faz com que o texto apareça*/
+    text-align: center; /*alinha o texto no centro de cada item*/
+  
+}
+
+/* TEXTO DENTRO DO ITEM *AVISOS* */
+#ferramentas .avisos p{
+    margin-top: 1px; /*deu uma margem menor em relação ao h1 avisos, isso foi necessario pois por ter mais texto ficava desproporcional*/
+}
+
+/*-------------------------------------------------*/
+
+/*ITEM AVISOS*/
+#ferramentas .avisos{ 
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM EVENTOS*/
+#ferramentas .eventos{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM ORGANIZAÇÃO*/
+#ferramentas .organizacao{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM CALENDARIO*/
+#ferramentas .calendario{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM PLANOS*/
+#ferramentas .planos{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM COMPARTILHAMENTO*/
+#ferramentas .compartilhamento{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+
+  /*-----------------------------------------------------------*/
+
+/* IMAGEM AVISOS*/
+#img_avisos{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/* IMAGEM EVENTOS*/
+#img_eventos{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/*IMAGEM ORGANIZAÇÃO*/
+#img_organizacao{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/*IMAGEM CALENDARIOS*/
+#img_calendario{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/*IMAGEM PLANOS*/
+#img_planos{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/*IMAGEM COMPARTILHAMENTO*/
+#img_compartilhamento{
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
+}
+
+/*-------------------------------------------------*/
+
+
+  /*LEGENDA (H1) DOS ITENS */
+legend{
+    font-size: 15px; /*tamaho dos h1*/
+    font-family: verdana; /*fonte do h1*/
+    
+}
+/*TEXTOS DOS ITENS*/
+.paragrafo{
+    font-size: 15px; /*tamanho do texto dos itens*/
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #000000,
+    -1px 1px 0px  #000000,
+    1px -1px 0px  #000000,
+    1px 0px 0px  #000000;
+}
+
+/*fim de ferramentas*/
+
+
