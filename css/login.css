@@ -3,7 +3,7 @@
 body {
     background-image:
         /* url(./img/fundotop.jpeg),*/
-        url(../images/5553605.jpg);
+        url(./5553605.jpg);
     background-size: 100%;
     color: white;
     background-repeat: no-repeat,
@@ -91,7 +91,7 @@ body {
 
 }
 
-#a_login{
+#a_login {
     margin-left: 50px;
     color: white;
 
@@ -175,7 +175,7 @@ section.login_2 {
     background-color: rgb(123, 113, 213);
     border: solid 1px rgb(184, 184, 184);
     border-radius: 7px;
-   text-decoration: none;
+    text-decoration: none;
 }
 
 /*mudando a cor quando passa, 2 pagina*/
